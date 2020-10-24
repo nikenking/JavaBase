@@ -1,0 +1,1 @@
+select courseid from classtocourse where classid=(select sclassid from student where sid = 17310320301)
